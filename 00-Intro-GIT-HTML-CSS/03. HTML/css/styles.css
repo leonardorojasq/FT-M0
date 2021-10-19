@@ -1,0 +1,39 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../img/02.jpg);
+    width: 100%;
+    height: auto;
+}
+.divClass{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: white;
+}
+#thirdDiv li img{
+    position: relative;
+    background-color: coral;
+    padding: 50px;
+    border: 10px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90%;
+}
+#thirdDiv {
+    width: 500px;
+    height: 600px;
+}
+#thirdDiv img {
+    width: 400px;
+}
+.spanId{
+    font-size: 18px;
+  
+}
