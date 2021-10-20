@@ -1,3 +1,4 @@
+/*LEONARDO ROJAS*/
 /*
 Lección 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
 archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
@@ -10,10 +11,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
     display: block;
     text-align: center;
 }
-
-
 /* Ejercicio 2: Posicionar el header */
-
 /* Acá va tu código */
 #ejercicioDos{
     display: none;
@@ -34,26 +32,20 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 #ejercicioCuatro{
-    position: absolute;
-    margin-top: -1500px;
     position: fixed;
+    top: 0px;
+    left: 0px;
 }
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
-#ejercicioCinco {
-    display: flex;
-    justify-content: space-between;
-
-}
-
 
 /* Ejercicio 6. */
 #ejercicioCinco {
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 flex-direction: row-reverse;
 }
 #ejercicioSiete {
