@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+/* eslint-disable no-undef  final leonardo*/
 const {
 	mayuscula,
 	invocarCallback,
