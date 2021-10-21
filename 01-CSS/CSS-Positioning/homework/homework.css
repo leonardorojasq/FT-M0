@@ -32,24 +32,47 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 #ejercicioCuatro{
+<<<<<<< HEAD
     position: fixed;
     top: 0px;
     left: 0px;
+=======
+    position: absolute;
+    margin-top: -1500px;
+    position: fixed;
+>>>>>>> a57f91529978274c063404185ddeb5dbd3d5ad76
 }
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
+#ejercicioCinco {
+    display: flex;
+    justify-content: space-between;
 
+<<<<<<< HEAD
 /* Ejercicio 6. */
 #ejercicioCinco {
 display: flex;
 justify-content: space-around;
+=======
+}
+
+
+/* Ejercicio 6. */
+#ejercicioCinco {
+display: flex;
+justify-content: space-between;
+>>>>>>> a57f91529978274c063404185ddeb5dbd3d5ad76
 flex-direction: row-reverse;
 }
 #ejercicioSiete {
     display: flex;
     align-items: flex-end;
     flex-direction: column-reverse;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a57f91529978274c063404185ddeb5dbd3d5ad76
