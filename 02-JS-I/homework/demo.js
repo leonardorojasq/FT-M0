@@ -1,13 +1,14 @@
-function mayorDeEdad(edad){
+function mostrarNumeros(numero){
+  switch (numero) {
+      case en:
+          console.log("hi")
+          return
+          case es:
+            return  console.log("hi")
+            break
+      default:
+          return console.log("numero esta entre 6 y 10")
+  }
 
-if(edad >= 18 ){
-return "Esa mayor de edad";
-}else if(edad <18){
-    return "Es menor";
-}else{
-    return "No es un numero"
 }
-
-}
-var persona = mayorDeEdad("leo");
-console.log(persona);
+mostrarNumeros(en)

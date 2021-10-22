@@ -17,16 +17,7 @@ const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
-<<<<<<< HEAD
-=======
 
-
-// En los próximos 22 problemas, deberás completar la función.
-// Todo tu código irá dentro de las llaves de la función.
-// Asegúrate que usas "return" cuando la consola te lo pida.
-// Pista: "console.log()" NO fucionará.
-// No cambies los nombres de las funciones.
->>>>>>> a57f91529978274c063404185ddeb5dbd3d5ad76
 
 function devolverString(str) {
   // "Return" la string provista: str
