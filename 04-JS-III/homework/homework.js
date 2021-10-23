@@ -1,99 +1,139 @@
 // No cambies los nombres de las funciones.
 
 function devolverPrimerElemento(array) {
-  // Devuelve el primer elemento de un array
-  // Tu código:
+  //1 Devuelve el primer elemento de un array
+  return array.shift();
 }
 
 
 function devolverUltimoElemento(array) {
-  // Devuelve el último elemento de un array
-  // Tu código:
+  //2 Devuelve el último elemento de un array
+  salida = array[array.length - 1];
+  return salida;
 }
 
 
 function obtenerLargoDelArray(array) {
-  // Devuelve el largo de un array
-  // Tu código:
+  //3 Devuelve el largo de un array
+  return array.length;
 }
 
 
 function incrementarPorUno(array) {
-  // "array" debe ser una matriz de enteros (int/integers)
+  //4 "array" debe ser una matriz de enteros (int/integers)
   // Aumenta cada entero por 1
   // y devuelve el array
-  // Tu código:
+  var nuevoArray = [];
+  for (var i = 0; i < array.length; i++) {
+    nuevoArray[i] = array[i] + 1;
+  }
+  return nuevoArray;
 }
 
-
 function agregarItemAlFinalDelArray(array, elemento) {
-  // Añade el "elemento" al final del array
+  //5 Añade el "elemento" al final del array
   // y devuelve el array
-  // Tu código:
+  // Tu código      array[array.push(6)]:
+  array[array.length] = elemento;
+  return array;
 }
 
 
 function agregarItemAlComienzoDelArray(array, elemento) {
-  // Añade el "elemento" al comienzo del array
+  //6 Añade el "elemento" al comienzo del array
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
+  array.unshift(elemento);
+  return array;
 }
 
 
 function dePalabrasAFrase(palabras) {
-  // "palabras" es un array de strings/cadenas
+  //7 "palabras" es un array de strings/cadenas
   // Devuelve un string donde todas las palabras estén concatenadas
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  return palabras.join(' ');
+  
 }
 
 
 function arrayContiene(array, elemento) {
-  // Comprueba si el elemento existe dentro de "array"
+  //8 Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  for(var i=0;i<array.length;i++){
+    if(array[i] === elemento){
+      return true;
+    }
+  }
+  return false;
 }
 
 
 function agregarNumeros(numeros) {
-  // "numeros" debe ser un arreglo de enteros (int/integers)
+  //9 "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  var suma = 0;
+  for (let i = 0; i < numeros.length; i++) {
+    suma = suma + numeros[i];
+  }
+  return suma;  
 }
 
 
 function promedioResultadosTest(resultadosTest) {
-  // "resultadosTest" debe ser una matriz de enteros (int/integers)
+  //10 "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
-  // Tu código:
+  // Tu código: otro codigo para revisar
+  //var suma = 0;
+  //var divi = 0;
+  //for (let i = 0; i < resultadosTest.length; i++) {
+ //  suma = suma + resultadosTest[i];
+
+  // divi = suma / resultadosTest[i];
+    
+  //}
+//return divi;
+//}
+return agregarNumeros(resultadosTest) / resultadosTest.length;//no entiendo como los suma sin 
+//crear antes las variables
 }
 
 
 function numeroMasGrande(numeros) {
-  // "numeros" debe ser una matriz de enteros (int/integers)
+  //11 "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
+  var maximo = numeros[0];
+  for (let i = 0; i < numeros.length; i++) {
+    if(numeros[i] > maximo){
+      maximo = numeros[i];
+    }
+  }
+  return maximo;
 }
 
 
 function tablaDelSeis(){
-  //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
+  //12 Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
   
 }
 
 function multiplicarArgumentos() {
-  // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
+  //13 Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
 }
 
 
 function cuentoElementos(arreglo){
-  //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
+  //14 Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
 
 }
